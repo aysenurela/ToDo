@@ -1,0 +1,162 @@
+
+body {
+  width: 325px;
+  min-height: 625px;
+  background: #eff5f6;
+  padding:50px 0 0 0;
+  font-family:'Open Sans Condensed', sans-serif;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  border: 2px solid #5F9EA0;
+}
+
+/* eski-yeni */
+
+
+
+.todo-filter .right ul {
+  text-align:center;
+  margin-top: 20px;
+  list-style: none;
+  padding: 10px;
+  font-size: 10px;
+  border: 2px solid #5F9EA0;
+  width: 200px;
+  position: fixed;
+  bottom: 50px;
+  z-index: 10;
+  left: 105px;
+}
+
+.todo-filter .right ul li {
+  display: inline;
+  color: white;
+  font-weight: bold;
+}
+
+.todo-filter .right ul li.actived {
+background-color:  	#5F9EA0;
+cursor: pointer;
+padding: 0 15px 0 15px;
+margin: 5px;
+}
+
+.todo-filter .right ul li.stayed {
+background-color:  	#5F9EA0;
+cursor: pointer;
+padding: 0 15px 0 15px;
+margin: 5px;
+}
+
+.todo-filter .right ul li.finished {
+background-color: #5F9EA0;
+cursor: pointer;
+padding: 0 15px 0 15px;
+margin: 5px;
+}
+
+.todo-filter .left {
+  margin-top: 20px;
+  float: left;
+  padding: 10px;
+  font-size: 10px;
+  border: 2px solid #5F9EA0;
+  width: 65px;
+  position: fixed;
+  bottom: 60px;
+  z-index: 10;
+  left: 15px;
+  background-color:  	#5F9EA0;
+  color: white;
+  font-weight: bold;
+}
+
+.todo-list ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.id {
+  padding-right: 25px;
+  color: #808080;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.type {
+  width: 20px;
+  height: 15px;
+  background-color: #2E8B57;
+  float: right;
+  border: 1px solid #eff5f6;
+  margin: 0 5px 0 0;
+}
+
+.delete {
+  width: 20px;
+  height: 15px;
+  background-color: #FF6347;
+  float: right;
+  border: .01px solid #eff5f6;
+  margin-right: 3px;
+}
+
+
+input {
+  width: 255px;
+  height: 50px;
+  border: 2px solid rgba(95, 158, 160, 0.2);
+  margin: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: rgba(95, 158, 160, 0.5);
+  position: absolute;
+
+}
+
+ input[type=text] {
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+ button {
+  background-color:rgba(95, 158, 160, 0.5);
+  width: 50px;
+	height: 55px;
+  position:relative;
+  margin: 10px;
+  margin-right: 5px;
+  margin-left: 270px;
+  border: 2px solid rgba(95, 158, 160, 0.2);
+  font-size: 30px;
+  font-weight: bold;
+  color: grey;
+}
+
+.header {
+	width:325px;
+	height:50px;
+	position: fixed;
+	z-index: 10;
+	background-color: rgba(95, 158, 160);
+  color: black;
+  top: 8px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+
+
+}
+
+.wrapper .content .todo-list ul li.active .type {
+    border-color: #50E3A4;
+  }
+.wrapper .content .todo-list ul li.active .type:before {
+    width: 16px;
+    height: 16px;
+    background-color: #50E3A4;
+ }
